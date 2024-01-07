@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application
+    x:Class="Arm64.WinUIApp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Arm64.WinUIApp">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+                <!-- Other merged dictionaries here -->
+            </ResourceDictionary.MergedDictionaries>
+            <!-- Other app resources here -->
+
+            <Style TargetType="TextBlock">
+                <Setter Property="Margin"
+                        Value="10" />
+                <Setter Property="FontSize"
+                        Value="16" />
+                <Setter Property="FontWeight"
+                        Value="SemiBold" />
+            </Style>
+
+            <Style TargetType="NumberBox">
+                <Setter Property="Margin"
+                        Value="10" />
+                <Setter Property="FontSize"
+                        Value="16" />
+                <Setter Property="FontWeight"
+                        Value="SemiBold" />
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="Margin"
+                        Value="10" />
+                <Setter Property="FontSize"
+                        Value="16" />
+                <Setter Property="FontWeight"
+                        Value="SemiBold" />
+            </Style>
+
+            <Style TargetType="ListBox">
+                <Setter Property="FontSize"
+                        Value="14" />
+                <Setter Property="FontWeight"
+                        Value="SemiBold" />
+            </Style>
+        </ResourceDictionary>
+
+        
+    </Application.Resources>
+</Application>
